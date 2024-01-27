@@ -40,3 +40,14 @@ table.basic tr td {
 table.basic a {
   @apply bg-gray-700 text-white text-sm py-1 px-1 mr-1 rounded-md inline-flex;
 }
+
+.btn-default, .btn-red{
+  @apply px-4 py-1 rounded-md
+}
+.btn-red {
+  @apply bg-red-800 text-white;
+}
+
+.btn-default {
+  @apply bg-slate-500 text-white
+}
